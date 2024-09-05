@@ -1,0 +1,79 @@
+.header{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.form{
+    margin-top: 2rem;
+    min-width: 450px;
+    width: 70%;
+    padding: 3rem;
+    border: solid 2px #212121;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 20px;
+    border-radius: 10px;
+    background-color: #FFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+input[type="checkbox"],
+textarea,
+select,
+input{
+    outline: 2px solid #212121;
+    margin-bottom: 5px;
+}
+
+input[type="checkbox"]:focus,
+textarea:focus,
+select:focus,
+input:focus{
+    border-color: #4C3BCF !important;
+    box-shadow: 0 0 0 .1rem #4C3BCF !important;
+}
+
+.form-check-input:checked {
+    background-color: #4C3BCF !important;
+    border-color: #4C3BCF !important;
+}
+@media (min-width: 768px){
+    .form{
+        width: 30%;
+    }
+  
+}
+
+.button {
+  background-color: #ffffff;
+  border: 2px solid #212121;
+  border-radius: 10px;
+  box-shadow: #212121 4px 4px 0 0;
+  color: #212121;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: all .3s;
+}
+
+.button:hover {
+  background-color: #4C3BCF;
+  color: #ffffff;
+}
+
+.button:active {
+  box-shadow: #212121 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
