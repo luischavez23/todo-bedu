@@ -1,12 +1,5 @@
-.header{
-    text-align: center;
-    margin: 2rem 0;
-}
-
 .form{
-    margin-top: 2rem;
-    min-width: 450px;
-    width: 70%;
+    width: 100%;
     padding: 3rem;
     border: solid 2px #212121;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 20px;
@@ -36,12 +29,12 @@ input:focus{
     background-color: #4C3BCF !important;
     border-color: #4C3BCF !important;
 }
-@media (min-width: 768px){
+/* @media (min-width: 768px){
     .form{
         width: 30%;
     }
   
-}
+} */
 
 .button {
   background-color: #ffffff;

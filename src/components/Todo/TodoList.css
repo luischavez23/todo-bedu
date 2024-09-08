@@ -1,0 +1,15 @@
+.listContainer{
+    height: 30vh;
+    overflow-y: scroll;
+    padding: 2rem;
+    scrollbar-width: auto;
+    scrollbar-color: #4C3BCF #FFFFFF;
+    background-color: #ECEDF6;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px){
+    .listContainer{
+        height: 70vh;
+    }
+}
