@@ -4,7 +4,7 @@ export const getDate = () => {
     const year = today.getFullYear();
     const date = today.getDate();
     const hour = today.getHours();
-    const minutes = today.getMinutes();
+    const minutes = String(today.getMinutes()).padStart(2,'0');
     
     return (`${month}/${date}/${year} - ${hour}:${minutes}`);
 };

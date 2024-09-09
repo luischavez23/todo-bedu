@@ -29,12 +29,6 @@ input:focus{
     background-color: #4C3BCF !important;
     border-color: #4C3BCF !important;
 }
-/* @media (min-width: 768px){
-    .form{
-        width: 30%;
-    }
-  
-} */
 
 .button {
   background-color: #ffffff;
@@ -69,4 +63,8 @@ input:focus{
     min-width: 120px;
     padding: 0 25px;
   }
+}
+
+.titleRef.current.focus{
+  color: red
 }

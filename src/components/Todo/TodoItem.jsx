@@ -13,19 +13,19 @@ export const TodoItem = ({ todo, deleteTodo, currentDate, updateTodo }) => {
         <div className=" card todo-item">
             <FontAwesomeIcon icon={ faXmark } className='close' onClick={() => deleteTodo(id) }beat/>
             <div className='card-body'>
-                <div className="d-md-flex justify-content-between align-items-center" >
+                <div className="d-lg-flex justify-content-between align-items-center" >
                     <div className='card-icons'>
-                        <p className={`todo-title ${ select=='completed' && "todo-title--completed" } fs-1 fw-bolder card-title`}>
-                        <FontAwesomeIcon icon={select === 'completed' ? faCircleCheck : faCircle} 
-                        className={select === 'completed' ? 'icon icon-check--active' : 'icon'} 
+                        <p className={`todo-title ${ select && "todo-title--completed" } fs-1 fw-bolder card-title`}>
+                        <FontAwesomeIcon icon={select ? faCircleCheck : faCircle} 
+                        className={select ? 'icon icon-check--active' : 'icon'} 
                         onClick={() => updateTodo(id)}/>
                             {title}
                         </p>
                     </div>
-                    {priority && <span className="badge bg-primary rounded-pill fs-6 card-priority">Prioridad</span>}
+                    {priority && <span className="badge rounded-pill fs-6 card-priority">Prioridad</span>}
                 </div>
-                <p className={`mb-2 todo-desc ${select == 'completed' && "todo-desc--completed"} fs-4`}>{ description }</p>
-                { select ==='completed' && <CurrentDate currentDate= { currentDate }/> }    
+                <p className={`mb-2 todo-desc ${select  && "todo-desc--completed"} fs-4`}>{ description }</p>
+                { select && <CurrentDate currentDate= { currentDate }/> }    
             </div>
         </div>
     );
