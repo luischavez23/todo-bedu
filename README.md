@@ -41,10 +41,10 @@ Esto generará los archivos de producción en la carpeta dist.
 Al iniciar la aplicación, verás un formulario  lista de tareas (si ya hay algunas creadas).
 1. Para agregar una nueva tarea, usa el formulario de entrada de la página.
 2. Puedes eliminar cualquier tarea haciendo clic en el botón de "X" junto a la tarea correspondiente.
+3. Para completar una tarea, simplemente dar click en el icono "O" y caso contrario si la tarea aún esta en proceso dar otra vez clicl en el icono mencionado.
 
 ## Tecnologías Utilizadas
 Vite: Herramienta de desarrollo rápida y ligera.
-3. Para completar una tarea, simplemente dar click en el icono "O" y caso contrario si la tarea aún esta en proceso dar otra vez clicl en el icono mencionado.
 
 React (o cualquier framework que estés usando, si es aplicable): Para construir la interfaz de usuario.
 
