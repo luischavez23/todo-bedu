@@ -11,14 +11,14 @@ export const Modal = ({ modalType }) => {
                 return(
                     <>
                         <Success />
-                        <h2 className='text-center'>Agregado correctamente</h2>
+                        <h3 className='text-center'>Agregado correctamente</h3>
                     </>
                 );
             case 'error':
                 return (
                       <>
                         <Error />
-                        <h2 className='text-center mt-4'>Favor de llenar el formulario.</h2>
+                        <h3 className='text-center mt-4'>Favor de llenar el formulario.</h3>
                       </>
                 );
         }

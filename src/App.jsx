@@ -81,7 +81,7 @@ function App() {
     <main className='container'>
       <div className='row'>
           <h1 className='header display-1 text-center my-3'>Todo List</h1>
-          <section className='d-md-flex justify-content-center align-items-center gap-5'>
+          <section className='d-md-flex gap-3'>
             <div className='col-md-5'>
               <TodoForm addTodo={ addTodo }
               showModal={ showModal }
